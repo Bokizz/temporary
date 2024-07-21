@@ -1,6 +1,10 @@
 package temporary
 
-import "github.com/Bokizz/temporary2"
+import (
+	"fmt"
+
+	"github.com/Bokizz/temporary2"
+)
 
 func Hey() string {
 	return "Hey,hey!"
@@ -20,4 +24,8 @@ func Listenednon() string {
 }
 func Listenedsom() string {
 	return temporary2.WhenListen(Heardsom())
+}
+
+func FromV11() {
+	fmt.Println("This is a text from version 1.1.0")
 }
