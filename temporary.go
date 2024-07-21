@@ -27,5 +27,9 @@ func Listenedsom() string {
 }
 
 func FromV11() {
-	fmt.Println("This is a text from version 1.1.0")
+	fmt.Println("This is text from version 1.1.0")
+}
+
+func FromV12() {
+	fmt.Println("This is text from version 1.2.0")
 }
